@@ -22,10 +22,8 @@ Deciding on the right CSS styling took a lot of time and it can always be improv
 
 ## Technologies that we are learning:
 
-* Frontend:
-* React
-* Backend:
-* Node, Express and MongoDB
+* Frontend: React
+* Backend: Node, Express and MongoDB
 
 ## Testing tool:
 * Jest
