@@ -50,7 +50,7 @@ Deciding on the right CSS styling took a lot of time and it can always be improv
 * But we had bugs which are to be fixed. We also fixed bugs in that. So as of now, we were ready to redirect the page to the respective user.
 * Now the process is to test every component of the frontend and backend.
 
-## Sprint 5: Learnings
+## Sprint 5: Learning
 * During Sprint 5, my team started working on integrating our work with other team. So in this week, we were expected to do finish testing and integrating into one file. 
 * For testing, we used JEST methodogy to test each and every component. Testing process completed with all the vulnerabilitites.
 * For Integrating, we pushed our files into github and started to merge files with other teams. The hardest part is to look for similar components and again merge it with our components. So it takes a lot of time to do that.
