@@ -59,6 +59,7 @@ Deciding on the right CSS styling took a lot of time and it can always be improv
 * I worked with the team and completed the integration part.
 * Later, I worked on the images, I faced the some issues regarding the images then we formed the group and took all the suggestion from friends and completed.
 * Last day I tried to implement the add to cart of the products but I didn’t finished it.
+
 ## During Sprint 7…
 * I worked on the add to cart products.
 * Later, I faced some bugs in the add to cart, it taken time for me to fixed the bugs.
