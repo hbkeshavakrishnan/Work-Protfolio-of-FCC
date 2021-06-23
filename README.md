@@ -10,7 +10,6 @@ Farmer Customer Connect directly connects farmers and customers and provides the
 Thus, Farmer Customer Connect helps the farmer and the customer trade vegetable goods and reek the benefits.
 
 
-
 ## Problems faced while doing the project:
 * While implementing the Google Oauth authentication, we faced a lot of issues because of our design. we were supposed to place a radio button and fetch data from when we press login button but we were not able to do it becuase google is redirecting it to the other page and the radio buttton placed above it are not able to fetch the data. So this process took an entire week. So we moved on to traditional login process.
 
@@ -30,36 +29,44 @@ Thus, Farmer Customer Connect helps the farmer and the customer trade vegetable 
 * Code Versioning Systems: GitHub
 
 ## During Sprint 1...
-* we learnt about scrum processes and agile methodology. Also, we came to know about the technologies (MERN - MongoDB, Express, React JS and Node JS) that have to be used to complete the project. 
+* We learnt about scrum processes and agile methodology. Also, we came to know about the technologies (MERN - MongoDB, Express, React JS and Node JS) that have to be used in the project. 
 * After that, we learnt how to create and use Git repositories and branches. During the last day of the Sprint, we started to create a database and created a sample database to know about how databases work.
 
 ## During Sprint 2...
-* we were split into two teams and my team was given the task of login user using Google authentication. 
+* We were split into two teams and my team was given the task of login user using Google authentication. 
 * We worked for 2 days for Google authentication and then we have split again into two teams. 
-* One team worked on the general login process and the other worked on the google ones. I was in charge of google authentication. 
-* The difficulty I faced is in our designing part we were asked to retrieve data from a radio which separates the user from google generated information which made us difficult task.
+* One team worked on the Traditional login process and the other worked on the google ones. I was in charge of google authentication. 
+* The difficulty I faced is in our designing part we were asked to retrieve data from a radio button which separates the user by their type but from google generated information that generated using our gmail which made us difficult task to fetch the data.
+* At the end of our review we were not able to retrieve data from it. So we shifted to traditional method.
 
 ## During Sprint 3...
-* my team started working on the farmer’s login and log out page where a user with type farmer can register their credentials and login to their respective pages.
-* The login needs to be done with JWT authentication where a token is developed using an algorithm. 
-* We generated the page but not able to redirect the user
+* My team started working on the farmer’s login and log out page where a user with type farmer can register their credentials and login to their respective pages.
+* The login needs to be done with JWT authentication where a token is developed using an HS256 algorithm. 
+* We generated the page but not able to redirect the user by using their user type. There are some errors regarding redirecting from one to another. We invested a lot of time to do this.
 
 ## During Sprint 4...
-* my team started working on redirecting the farmer’s page to the farmer page and then the customer to the customer page. 
-* But we had bugs which are to be fixed. We also fixed bugs in that. So as of now, we were ready to redirect the page to the respective user.
+* My team started working on redirecting the farmer’s page to the farmer page and then the customer to the customer page. 
+* But we had bugs which are yet to be fixed but able to redirect to the user's page based on their role. 
+* So as of now, we were ready to redirect the page to the respective user.
 * Now the process is to test every component of the frontend and backend.
 
 ## During Sprint 5...
-* my team started working on integrating our work with other team. So in this week, we were expected to do finish testing and integrating into one file. 
+* My team started working on integrating our work with other team. So in this week, we were expected to do finish testing and integrating into one file. 
 * For testing, we used JEST methodogy to test each and every component. Testing process completed with all the vulnerabilitites.
 * For Integrating, we pushed our files into github and started to merge files with other teams. The hardest part is to look for similar components and again merge it with our components. So it takes a lot of time to do that.
 
 ## During Sprint 6...
 * I worked with the team and completed the integration part.
-* Later, I worked on the images, I faced the some issues regarding the images then we formed the group and took all the suggestion from friends and completed.
-* Last day I tried to implement the add to cart of the products but I didn’t finished it.
+* Later, I worked on the images, I faced the some issues regarding the images then we formed the group and took all the suggestion from friends and completed. Finally, by the usage of some resources we fixed the issues.
+* Last day I tried to implement the add to cart of the products but I didn’t finished it. Because there is a bug in the page. The bug is we want to include farmer email from local storage and we used to clear that after sign out. So the bug is when we click on sign out the crendentials were missing. the error is email is not available. We used try and catch method to handle this error.
 
 ## During Sprint 7...
-* I worked on the add to cart products.
-* Later, I faced some bugs in the add to cart, it taken time for me to fixed the bugs.
-* By end of the week I fixed the bugs and worked on place order. Solved the bugs in place order.
+* I worked on the add to cart and place order page.
+* Later, I faced some bugs in the add to cart, it took some time for me to fix them.
+* By end of the week, I fixed the bugs and worked on place order. Solved the bugs in place order.
+* With the usage of same methodolgy, I implemented the place order. I prefered different schema for the both. 
+
+## During Sprint 8...
+* With the help of the same methodology used in sprint 7, I thought of showing orders placed by customers to farmers. 
+* We were able to show the orders but we have to accept and reject orders functionality for them. The reject orders functionality was implemented using delete method but for the accept order functionality is not working properly. The put method is not working fine in mine laptop. My backend code was showing some error regarding this. 
+* My teammate cracked the code but when integrated into the main code, it again started throwing errors. So we tried to resolve it.
